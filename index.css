@@ -1,0 +1,140 @@
+body
+{
+    padding: 0px; 
+    margin: 0px; 
+    background-color:#efefef;
+}
+div#nav
+{ 
+    height: 50px;
+    background-color: white;
+    margin-top:-16px 
+}
+
+div#nav li
+{
+list-style: none;
+float: left;
+padding: 20px;
+font-family: 'Open Sans',sans-serif;
+font-size: 13px;
+
+}
+
+div#nav li a 
+{
+text-decoration: none;
+}
+#cent
+{
+    display: flex;
+    justify-content: center;
+}
+
+#ab
+{
+    width: auto;
+    height: 600px;
+    /* border: 2px solid green; */
+    margin-top: 60px;
+    
+}
+#h1
+{
+  color: #2cccc4;  
+  font-size: 70px;
+  font-family: Raleway, sans-serif !important;
+  text-align: center;
+  letter-spacing:4px
+}
+#par
+{
+    text-align: center; 
+    font-size: 17px;
+    line-height: 0px;
+}
+
+#keyfra
+{
+    
+    font-size: 30px;
+    animation-name: abrar;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid black;
+}
+
+@keyframes abrar {
+0%{
+    width: 0ch;
+}
+50%
+{
+    width: 10ch;
+}
+ 
+}
+#bn
+{
+    display: flex;
+    justify-content: center;
+}
+
+#img
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 150px;
+    border: 6px solid white;
+    margin-left: 230px;
+    margin-bottom: 33px;
+}
+
+#abw
+{
+width: 300px;
+height: 200px;
+/* border: 2px solid black; */
+display: inline-block;
+/* text-align: justify; */
+padding: 10px;
+box-sizing: border-box;
+/* margin-left: 230px; */
+}
+
+#h4
+{
+    text-align: center;
+    margin-left: -52px;
+}
+
+#butt
+{
+ height: 38px;   
+ width: 128px;
+ background-color: #2cccc4 !important;
+ cursor: pointer;
+ border-radius: 30px;
+}
+
+#h42
+{
+    position: relative;
+    top: -195px;
+    right: 38px;
+display: inline-block;
+width: 200px;
+height: 300px;
+}
+
+pre{
+    position: relative;
+    top: 42px;
+    right: 243px;
+display: inline-block;
+width: 200px;
+height: 300px;
+}
